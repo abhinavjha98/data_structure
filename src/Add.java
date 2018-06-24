@@ -92,10 +92,10 @@ public class Add extends javax.swing.JFrame {
         String s1 =jTextField1.getText();
         String s2 =jPasswordField1.getText();
         String s3="dhruv";
-        if(s2==s3){
+        if(s2.equals(s3)){
             JOptionPane.showMessageDialog(this, s2);
     }else{
-            JOptionPane.showMessageDialog(this, ""+"Please renter your password" +s2);
+            JOptionPane.showMessageDialog(this, ""+"Please renter your password");
             
             jPasswordField1.setText("");
         }
